@@ -1,6 +1,7 @@
 ### Terminal version of a game of checkers that makes extensive use of ANSI escape codes
 
 Features:
+* Basic game in Player vs Player mode
 * Game with custom board size from 4 to 26 (passed as an optional command line argument, default is 8)
 * Saving current game to or loading from a file (type "save" at any moment in the game instead of a cell name to save current state, then load it from the main menu)
 * Main menu is implemented by switching the terminal to a raw mode, which enables selecting options with the arrow keys
